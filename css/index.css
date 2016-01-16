@@ -54,6 +54,11 @@ img {
 .header-list {
   list-style: none;
 }
+.header-list > li {
+  float: left;
+  position: relative;
+  margin-right: 30px; 
+}
 .container {
   margin: 0 auto;
   max-width: 1080px;
